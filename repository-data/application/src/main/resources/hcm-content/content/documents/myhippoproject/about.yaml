@@ -1,0 +1,60 @@
+/content/documents/myhippoproject/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b790b268-ff90-48a9-9dd5-c26b58c600de
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d75db012-c5a2-4544-bdd3-ff28e8f00a08
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3de41a63-94bf-462f-9124-1eda27a6ce49
+    /about[1]:
+      jcr:primaryType: myhippoproject:simpledocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a0831d27-eaec-4427-89df-ef8a0f453e7a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-15T08:18:52.662+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-15T08:19:28.012+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9b263c8d-e276-4a7b-8bed-78008fe664b0
+      hippotranslation:locale: en
+      myhippoproject:title: About
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some text.</p>
+    /about[2]:
+      jcr:primaryType: myhippoproject:simpledocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: afe3e834-182e-41d8-9e26-b190cdef08bb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-15T08:18:52.662+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-15T08:19:27.918+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9b263c8d-e276-4a7b-8bed-78008fe664b0
+      hippotranslation:locale: en
+      myhippoproject:title: About
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some text.</p>
+    /about[3]:
+      jcr:primaryType: myhippoproject:simpledocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5771fdf-8c1c-4201-9e55-b6ab4b9ac480
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-15T08:18:52.662+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-15T08:19:27.918+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-08-15T08:19:39.303+03:00
+      hippotranslation:id: 9b263c8d-e276-4a7b-8bed-78008fe664b0
+      hippotranslation:locale: en
+      myhippoproject:title: About
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some text.</p>

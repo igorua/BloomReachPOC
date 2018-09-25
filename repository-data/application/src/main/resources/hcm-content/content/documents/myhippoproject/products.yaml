@@ -1,0 +1,3 @@
+/content/documents/myhippoproject/products:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder

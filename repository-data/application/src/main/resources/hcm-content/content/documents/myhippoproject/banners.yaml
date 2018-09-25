@@ -1,0 +1,245 @@
+/content/documents/myhippoproject/banners:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 8ad7c410-7f8a-4612-8d9b-745ff03cdcca
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: b31477c9-acd6-4fbd-8a04-8f3603f02323
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    /banner1:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dc9738c6-9839-4dba-ae8b-df18fb0e5f1a
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: ad617445-5fa2-4f11-9cb1-b1956c5b21ed
+      hippotranslation:locale: en
+      myhippoproject:title: Sample banner
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f87b8f15-6676-43d6-ac94-9b06125dcc16
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 732e46f0-3254-403e-a19e-4a5d42a1a584
+      hippotranslation:locale: en
+      myhippoproject:title: Sample banner 2
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /10-simple-steps:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8f6b54e6-3285-425f-a291-066167d2facd
+    hippo:name: 10 Simple Steps
+    /10-simple-steps[1]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b3a933bd-b5ee-4f68-b9cf-40a2a28f9eed
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:17:44.843+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:17:44.843+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7737562c-6f77-42b6-ade5-44553644e2c1
+      hippotranslation:locale: en
+      myhippoproject:title: 10 Simple Steps
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps bla bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f1bec97c-f81f-42bd-916e-a94614997493
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps[2]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ecff3bf6-51b4-4caf-ac6a-28392044f503
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:17:44.843+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:20:03.174+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7737562c-6f77-42b6-ade5-44553644e2c1
+      hippotranslation:locale: en
+      myhippoproject:title: 10 Simple Steps
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps bla bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f1bec97c-f81f-42bd-916e-a94614997493
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps[3]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 57603861-0839-451c-a4c7-038d60da22f8
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:17:44.843+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:20:03.174+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-08-13T15:20:14.012+03:00
+      hippotranslation:id: 7737562c-6f77-42b6-ade5-44553644e2c1
+      hippotranslation:locale: en
+      myhippoproject:title: 10 Simple Steps
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>10 Simple Steps bla bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f1bec97c-f81f-42bd-916e-a94614997493
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+  /is-a-smart:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a2130260-7c4d-460a-b6a2-902418f17acd
+    hippo:name: Is a Smart
+    /is-a-smart[1]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 70e0b2f4-ac22-4dd7-a649-6de3033305de
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:20:41.411+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:20:41.411+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 15dc5313-64c9-44c7-b9d6-305bec5097d3
+      hippotranslation:locale: en
+      myhippoproject:title: Is a Smart
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart&nbsp; bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 580c9b3d-c8f4-45f8-a14c-159191626c55
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /is-a-smart[2]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 968e7bbe-2101-4de8-bfe9-e01f99dc0e25
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:20:41.411+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:20:59.283+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 15dc5313-64c9-44c7-b9d6-305bec5097d3
+      hippotranslation:locale: en
+      myhippoproject:title: Is a Smart
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart&nbsp; bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 580c9b3d-c8f4-45f8-a14c-159191626c55
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /is-a-smart[3]:
+      jcr:primaryType: myhippoproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bbe8a844-a471-44be-a62d-c14886fb8428
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-08-13T15:20:41.411+03:00
+      hippostdpubwf:lastModificationDate: 2018-08-13T15:20:59.283+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-08-13T15:21:01.712+03:00
+      hippotranslation:id: 15dc5313-64c9-44c7-b9d6-305bec5097d3
+      hippotranslation:locale: en
+      myhippoproject:title: Is a Smart
+      /myhippoproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart&nbsp; bla bla</p>
+      /myhippoproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 580c9b3d-c8f4-45f8-a14c-159191626c55
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myhippoproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe

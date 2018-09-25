@@ -1,0 +1,33 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myhippoproject:small:
+      .meta:order-before: myhippoproject:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 224
+      upscaling: false
+      width: 491
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myhippoproject:large:
+      .meta:order-before: myhippoproject:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 302
+      upscaling: false
+      width: 663
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myhippoproject:smallsquare:
+      .meta:order-before: myhippoproject:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 233
+      upscaling: false
+      width: 233
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myhippoproject:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 1070
+      compression: 1.0
+      optimize: quality

@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/myhippoproject/hst:workspace/hst:sitemap/about:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/about-contentpage
+  hst:lastmodified: 2018-08-15T08:24:17.952+03:00
+  hst:pagetitle: About
+  hst:relativecontentpath: about/about

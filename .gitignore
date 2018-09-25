@@ -1,0 +1,30 @@
+*.lastupdate
+*.pmd
+
+## Generated stuff
+gensrc/
+gencss/
+eclipsebin/
+classes/
+testclasses/
+gencss/
+
+## Mac
+*.DS_Store
+.DS_Store
+
+.metadata/
+
+## JetBrains IDEA
+.idea/
+*.iml
+
+## Eclipse
+com.eclipsesource.jshint.ui.prefs
+.settings
+.classpath
+.project
+.springBeans
+
+## Custom repository
+storage/

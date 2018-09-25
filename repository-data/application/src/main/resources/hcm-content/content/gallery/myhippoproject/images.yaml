@@ -1,0 +1,69 @@
+/content/gallery/myhippoproject/images:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: c9836d8d-d343-4756-b9f8-011265053d54
+  hippostd:foldertype: [new-myhippoproject-imageset-folder]
+  hippostd:gallerytype: ['myhippoproject:imageset']
+  /heavy-duty-arc-welding-machine-500x500.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d1e5a465-f20e-4147-a7cd-bfc011576a34
+    /heavy-duty-arc-welding-machine-500x500.jpeg:
+      jcr:primaryType: myhippoproject:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: heavy-duty-arc-welding-machine-500x500.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: heavy-duty-arc-welding-machine-500x500.jpeg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
+      /myhippoproject:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/small/small.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 500
+        hippogallery:width: 500
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/original/original.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
+      /myhippoproject:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 302
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/large/large.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
+      /myhippoproject:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/banner/banner.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
+      /myhippoproject:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myhippoproject/images/heavy-duty-arc-welding-machine-500x500.jpeg/heavy-duty-arc-welding-machine-500x500.jpeg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-08-13T12:47:19.919+03:00
+        jcr:mimeType: image/jpeg
